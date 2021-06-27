@@ -58,3 +58,7 @@ li[2].style.backgroundColor="#800080";
 //select elements using query selector
 var hd=document.querySelector('#navbar');
 hd.style.border='solid 5px #000';
+
+//Mix selectors
+var ite=document.querySelector('div .frm #frmt');
+ite.style.color='green';
