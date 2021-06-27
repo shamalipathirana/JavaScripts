@@ -54,3 +54,7 @@ items[4].style.backgroundColor="#00FF7F";
 var li=document.getElementsByTagName('li');
 console.log(li);
 li[2].style.backgroundColor="#800080";
+
+//select elements using query selector
+var hd=document.querySelector('#navbar');
+hd.style.border='solid 5px #000';
