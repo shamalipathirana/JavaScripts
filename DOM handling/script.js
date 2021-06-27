@@ -34,4 +34,11 @@ var navigation=document.getElementById('navbar');
 navigation.style.backgroundColor="yellow";
 navigation.style.color="blue";
 
-//select elements using class names
+//..........select elements using class names
+var items=document.getElementsByClassName('items');
+items[0].textContent='Blouse';
+items[1].textContent='T-Shirts';
+items[2].textContent='Shirts';
+items[3].textContent='Jeans';
+items[4].textContent='Frocks';
+
