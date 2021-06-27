@@ -21,3 +21,10 @@ console.log(document.title);
 console.log(document.getElementById('frmt'));
 var fromTitle=document.getElementById('frmt');
 console.log(fromTitle);
+
+//..textContent,innerText,innerHtml
+fromTitle.textContent='Add Shopping Items';
+fromTitle.innerText='Shopping  Items';
+fromTitle.innerHTML='<i>Hello </i>Add Items';
+
+console.log(fromTitle.textContent);
