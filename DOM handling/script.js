@@ -42,3 +42,15 @@ items[2].textContent='Shirts';
 items[3].textContent='Jeans';
 items[4].textContent='Frocks';
 
+//chane back color of all the list
+items[0].style.backgroundColor="#DC143C";
+items[1].style.backgroundColor="#008B8B";
+items[2].style.backgroundColor="#FF7F50";
+items[3].style.backgroundColor="#FF4500";
+items[4].style.backgroundColor="#00FF7F";
+
+//Select elements using tag name
+
+var li=document.getElementsByTagName('li');
+console.log(li);
+li[2].style.backgroundColor="#800080";
