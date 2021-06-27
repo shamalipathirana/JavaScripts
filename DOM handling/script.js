@@ -28,3 +28,10 @@ fromTitle.innerText='Shopping  Items';
 fromTitle.innerHTML='<i>Hello </i>Add Items';
 
 console.log(fromTitle.textContent);
+
+//styling elements
+var navigation=document.getElementById('navbar');
+navigation.style.backgroundColor="yellow";
+navigation.style.color="blue";
+
+//select elements using class names
