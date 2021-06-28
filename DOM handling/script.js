@@ -64,4 +64,12 @@ var ite=document.querySelector('div .frm #frmt');
 ite.style.color='green';
 
 //select elements usinh query selector all
-var dv=documnet.querySelectorAll('div');
+var dv=document.querySelectorAll('div');
+console.log(dv);
+
+//pseudo classes
+//grab all the odd list  items
+
+var odd=document.querySelectorAll('li:nth-child(odd)');
+console.log(odd);
+odd.style.backgroundColor="#DC143C";
