@@ -62,3 +62,6 @@ hd.style.border='solid 5px #000';
 //Mix selectors
 var ite=document.querySelector('div .frm #frmt');
 ite.style.color='green';
+
+//select elements usinh query selector all
+var dv=documnet.querySelectorAll('div');
