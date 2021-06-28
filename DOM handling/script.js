@@ -1,5 +1,5 @@
 
-console.dir(document);
+/*console.dir(document);
 
 //get properties
 
@@ -69,7 +69,17 @@ console.log(dv);
 
 //pseudo classes
 //grab all the odd list  items
-
+*/
 var odd=document.querySelectorAll('li:nth-child(odd)');
 console.log(odd);
-odd.style.backgroundColor="#DC143C";
+//odd.style.backgroundColor="#DC143C";
+var even=document.querySelectorAll('li:nth-child(even)');
+
+for(var i of odd){
+    i.style.backgroundColor="#DC143C";
+}
+for(var j of even){
+    j.style.backgroundColor="#FF4500";
+}
+
+
